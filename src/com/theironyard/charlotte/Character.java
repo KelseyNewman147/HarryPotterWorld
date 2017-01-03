@@ -171,7 +171,7 @@ public class Character {
 
     public void battleVoldemort(Character enemy) throws Exception {
         System.out.println("You Know Who is at it again! We have to stop him!");
-        System.out.println("Oh no, he's injured your companion! What would you like to do?");
+        System.out.println("Oh no, he's injured your companion!");
         System.out.println("What would you like to do?");
         System.out.println("1)Face him yourself.");
         System.out.println("2)Run away!");
