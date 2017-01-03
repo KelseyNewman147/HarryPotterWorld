@@ -106,9 +106,10 @@ public class Character {
         else if (adventure.equals("2")) {
             tripToHogsmeade();
         }
-//        else if (adventure.equals("3")) {
-//            battleVoldemort(Character enemy);
-//        }
+        else if (adventure.equals("3")) {
+            Enemy voldemort = new Enemy("Voldemort", 75, 85);
+            battleVoldemort(voldemort);
+        }
         else {
             throw new Exception("You can't just make up an adventure!");
         }

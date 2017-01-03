@@ -3,7 +3,7 @@ package com.theironyard.charlotte;
 public class Main {
 
     public static void main(String[] args) throws Exception {
-        Character user = new Character("user", 10, 100);
+        Character user = new Character("user", 100, 100);
 
         System.out.println("Hello! You are about to embark on a magical adventure!");
 
