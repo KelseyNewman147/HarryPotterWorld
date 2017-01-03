@@ -10,5 +10,4 @@ public class Companion extends Character {
         super(name, health, damage);
     }
     public static HashMap<String, Companion> companions = new HashMap();
-
 }

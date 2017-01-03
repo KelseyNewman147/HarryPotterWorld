@@ -11,10 +11,10 @@ public class Main {
         Companion.companions.put("ron", new Companion("Ron Weasley", 100, 150));
         Companion.companions.put("hermione", new Companion("Hermione Granger", 100, 200));
         Companion.companions.put("dumbledore", new Companion("Albus Dumbledore", 100, 1001));
+        //Trying to implement an option to have your companion help in the battle.
 
         user.chooseName();
         user.chooseCompanion();
         user.chooseAdventure();
     }
-
 }

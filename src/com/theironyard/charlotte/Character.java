@@ -61,7 +61,6 @@ public class Character {
         System.out.println("Welcome, " + name + "!");
     }
 
-
     public void chooseCompanion() throws Exception{
         System.out.println("You'll need someone to keep you company on your journey!");
         System.out.println("Please choose your companion from the list below:");

@@ -7,7 +7,5 @@ public class Enemy extends Character {
     public Enemy(String name, int health, int damage) {
         super("Voldemort", 75, 200);
     }
-
 //    Enemy voldemort = new Enemy("Voldemort", 75, 1000);
-
 }
